@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GSoC Gantt Chart</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      padding: 40px;
+    }
+    h1 {
+      color: #2c5282;
+      text-align: center;
+    }
+    .chart {
+      display: grid;
+      grid-template-columns: 200px repeat(5, 1fr);
+      border: 1px solid #ccc;
+      margin-top: 30px;
+    }
+    .header, .cell {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+    .task {
+      background-color: #90cdf4;
+      color: #1a365d;
+      font-weight: bold;
+    }
+    .empty {
+      background-color: #edf2f7;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📈 GSoC 2025 Gantt Chart</h1>
+
+  <div class="chart">
+    <!-- Header Row -->
+    <div class="header">Task</div>
+    <div class="header">Apr</div>
+    <div class="header">May</div>
+    <div class="header">Jun</div>
+    <div class="header">Jul</div>
+    <div class="header">Aug</div>
+
+    <!-- Rows -->
+    <div class="cell">Project Familiarization</div>
+    <div class="cell empty"></div>
+    <div class="cell task"></div>
+    <div class="cell empty"></div>
+    <div class="cell empty"></div>
+    <div class="cell empty"></div>
+
+    <div class="cell">Dataset Collection / Benchmark Review</div>
+    <div class="cell empty"></div>
+    <div class="cell task"></div>
+    <div class="cell task"></div>
+    <div class="cell empty"></div>
+    <div class="cell empty"></div>
+
+    <div class="cell">Gemini 2.0 Integration</div>
+    <div class="cell empty"></div>
+    <div class="cell empty"></div>
+    <div class="cell task"></div>
+    <div class="cell task"></div>
+    <div class="cell empty"></div>
+
+    <div class="cell">Evaluation & Analysis</div>
+    <div class="cell empty"></div>
+    <div class="cell empty"></div>
+    <div class="cell empty"></div>
+    <div class="cell task"></div>
+    <div class="cell task"></div>
+
+    <div class="cell">Documentation & Final Report</div>
+    <div class="cell empty"></div>
+    <div class="cell empty"></div>
+    <div class="cell empty"></div>
+    <div class="cell empty"></div>
+    <div class="cell task"></div>
+  </div>
+
+</body>
+</html>
